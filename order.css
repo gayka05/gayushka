@@ -21,6 +21,7 @@ header {
     /* background: #4CAF50 url("bg1.jpg") no-repeat top center; */
     color: white;
     padding: 20px 0;
+    text-align: center;
 }
 
 header h1 {
