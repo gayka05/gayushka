@@ -1,4 +1,3 @@
-
 section > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,12 +52,12 @@ section > div > div > button {
 
 section > div > div > button:hover {
     text-decoration: none;
-    background-color: #cbd32f;
+    background-color: #ff0090;
 }
 
 section > div > div > button:active {
     text-decoration: none;
-    background-color: #4CAF50;
+    background-color: #ffa202;
 }
 
 p.note {
@@ -115,12 +114,12 @@ button:hover {
 }
 
 .filter:hover {
-    color: #4caf50;
+    color: #ffc20a;
     font-weight: bold;
 }
 
 .filter.active {
-    color: #4caf50;
+    color: #ffc402;
     font-weight: bold;
 }
 
