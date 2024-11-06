@@ -6,7 +6,7 @@ const dishes = [
     { name: "Том Ям", price: 450, weight: "450 мл", image: "томям.webp", category: "soup", dataDish: "tom", kind: "fish" },
     { name: "Борщ", price: 550, weight: "550 мл", image: "борщ.webp", category: "soup", dataDish: "borsh", kind: "meat" },
     { name: "Куриный суп", price: 550, weight: "550 мл", image: "куриныйсуп.webp", category: "soup", dataDish: "kuri", kind: "meat" },
-    { name: "Грибной суп", price: 550, weight: "550 мл", image: "суп.webp", category: "soup", dataDish: "grib", kind: "vege" },
+    { name: "Грибной суп", price: 550, weight: "550 мл", image: "грибной суп.webp", category: "soup", dataDish: "grib", kind: "vege" },
     { name: "Уха", price: 550, weight: "550 мл", image: "уха.webp", category: "soup", dataDish: "uxa", kind: "fish" },
     // Salads
     { name: "Мясной салат", price: 350, weight: "350 мг", image: "мяснойсалат.webp", category: "salad", dataDish: "oliv", kind: "meat" },
