@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Sofadi One', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50 ;
+    background-color: #ffae00 ;
     /* background: #4CAF50 url("bg1.jpg") no-repeat top center; */
     color: white;
     padding: 20px 0;
@@ -101,7 +101,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #ffa600;
     color: white;
 }
 
