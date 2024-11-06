@@ -10,7 +10,7 @@ section > div > div {
     flex-direction: column;
     padding: 30px 40px;
     border-radius: 35px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
     transition: border 0.3s, background-color 0.3s;
@@ -52,12 +52,12 @@ section > div > div > button {
 
 section > div > div > button:hover {
     text-decoration: none;
-    background-color: #ff0090;
+    background-color: #ff9d00;
 }
 
 section > div > div > button:active {
     text-decoration: none;
-    background-color: #ffa202;
+    background-color: #ff0270;
 }
 
 p.note {
@@ -141,7 +141,7 @@ button:hover {
     justify-content: space-evenly;
     padding: 1rem 0.5rem;
     transition: 0.2s ease;
-    filter: drop-shadow(0.7rem 1rem 1rem rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0.7rem 1rem 1rem rgb(255, 163, 5));
 
 }
 
