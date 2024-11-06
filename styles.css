@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SofadiOne', monospace;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f6a504;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Стили для навигации */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрирование навигации */
+    margin-bottom: 20px; /* Отступ снизу навигации */
+}
+
+nav a {
+    margin: 10px 15px; /* Отступы между ссылками */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #ef0d82; /* Цвет текста ссылок */
+    padding: 10px 15px; /* Внутренние отступы для создания кнопочного эффекта */
+    border-radius: 5px; /* Закругление углов */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+nav a:hover {
+    background-color: rgba(239, 13, 130, 0.1); /* Цвет фона при наведении */
+}
+
+nav a.active {
+ 
+    color: red; /* Цвет текста для активной ссылки */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+img {
+    width: 50%;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #de88be;
+    text-align: center;
+}
+
+footer {
+    background-color: #fac55a;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: rgb(255, 89, 178);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
