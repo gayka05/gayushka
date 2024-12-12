@@ -180,14 +180,13 @@ function addToOrder(item) {
     updateTotalPrice();
 }
 
-// Initialize the dish display
 displayDishes();
 
-// Giỏ hàng
+
 const cart = [];
 let totalPrice = 0;
 
-// Hàm thêm món vào giỏ hàng
+
 function addToCart(name, price) {
     document.getElementById('order').style.display = 'block';
     document.getElementById('no-dishes').style.display = 'none';
@@ -196,25 +195,25 @@ function addToCart(name, price) {
     updateCart();
 }
 
-// Cập nhật giỏ hàng hiển thị
+
 function updateCart() {
-    // Cập nhật tổng tiền
+
     document.getElementById('total-price').textContent = `${totalPrice} ₽`;
 }
 
-// Tìm tất cả các nút "Добавить" và thêm sự kiện cho chúng
+
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', () => {
-        // Lấy thông tin tên món và giá từ các phần tử tương ứng
+
         const dishName = button.previousElementSibling.previousElementSibling.textContent;
         const dishPrice = parseInt(button.previousElementSibling.textContent.replace(' ₽', ''));
 
-        // Gọi hàm thêm vào giỏ hàng
+
         addToCart(dishName, dishPrice);
     });
 });
 
-// Giữ màu khi nút được bấm
+
 document.addEventListener('DOMContentLoaded', function() {
     const filters = document.querySelectorAll('.filter');
     filters.forEach(filter => {
