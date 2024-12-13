@@ -20,9 +20,9 @@ function getSortedArray(array, key) {
 
 // Исходный массив данных с объектами
 const data = [
-    { name: 'Arina', age: 40 }, 
-    { name: 'Kirill', age: 20 }, 
-    { name: 'Gaya', age: 18 },    
+    { name: 'Eva', age: 15 }, 
+    { name: 'Diana', age: 17 }, 
+    { name: 'Karinka', age: 19 },    
 ];
 
 // Сортируем массив по имени и сохраняем результат в переменную
